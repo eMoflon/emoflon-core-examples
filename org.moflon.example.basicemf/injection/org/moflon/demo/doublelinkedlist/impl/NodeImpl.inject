@@ -3,8 +3,9 @@ partial class NodeImpl {
 
 
 
-@model deleteNode ()<--      
-      if (this.getNext() != null) {
+@model deleteNode ()<--
+      if (this.getNext() != null)
+      {
          final Node oldNext = this.getNext();
          final Node newNext = oldNext.getNext();
          this.setNext(newNext);
