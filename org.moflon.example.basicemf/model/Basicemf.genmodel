@@ -5,24 +5,24 @@
     complianceLevel="8.0" copyrightFields="false" operationReflection="true">
   <foreignModel>Basicemf.ecore</foreignModel>
   <genPackages prefix="Doublelinkedlist" basePackage="org.moflon.demo" disposableProviderFactory="true"
-      ecorePackage="platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#/">
-    <genClasses ecoreClass="platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//Node">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//Node/next"/>
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//Node/previous"/>
-      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//Node/container"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//Node/label"/>
-      <genOperations ecoreOperation="platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//Node/deleteNode"/>
-      <genOperations ecoreOperation="platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//Node/insertNodeAfter">
-        <genParameters ecoreParameter="platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//Node/insertNodeAfter/newNode"/>
+      ecorePackage="Basicemf.ecore#/">
+    <genClasses ecoreClass="Basicemf.ecore#//Node">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Basicemf.ecore#//Node/next"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Basicemf.ecore#//Node/previous"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference Basicemf.ecore#//Node/container"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Basicemf.ecore#//Node/label"/>
+      <genOperations ecoreOperation="Basicemf.ecore#//Node/deleteNode"/>
+      <genOperations ecoreOperation="Basicemf.ecore#//Node/insertNodeAfter">
+        <genParameters ecoreParameter="Basicemf.ecore#//Node/insertNodeAfter/newNode"/>
       </genOperations>
-      <genOperations ecoreOperation="platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//Node/insertNodeBefore">
-        <genParameters ecoreParameter="platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//Node/insertNodeBefore/newNode"/>
+      <genOperations ecoreOperation="Basicemf.ecore#//Node/insertNodeBefore">
+        <genParameters ecoreParameter="Basicemf.ecore#//Node/insertNodeBefore/newNode"/>
       </genOperations>
     </genClasses>
-    <genClasses ecoreClass="platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//List">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//List/elements"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//List/name"/>
-      <genOperations ecoreOperation="platform:/plugin/org.moflon.example.basicemf/model/Basicemf.ecore#//List/getFirstNode"/>
+    <genClasses ecoreClass="Basicemf.ecore#//List">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Basicemf.ecore#//List/elements"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Basicemf.ecore#//List/name"/>
+      <genOperations ecoreOperation="Basicemf.ecore#//List/getFirstNode"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>
